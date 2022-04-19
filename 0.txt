@@ -1,0 +1,4 @@
+Executed SQL Statement : Alter table `hotel_ku`.`tb_pelanggan`  
+  add foreign key (`id_kamar`) references `hotel_ku`.`tb_kamar`(`id_kamar`) 
+Error Number : 1452 
+Error Message: Cannot add or update a child row: a foreign key constraint fails (`hotel_ku`.`#sql-5b4c_3be`, CONSTRAINT `#sql-5b4c_3be_ibfk_1` FOREIGN KEY (`id_kamar`) REFERENCES `tb_kamar` (`id_kamar`)) 
